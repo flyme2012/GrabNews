@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12651300-afc2-4b5c-8177-32c5cf8dacf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/stock.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/StockCategory.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/StockList.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/StockSinaConcept.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/StockTencentConcept.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/grapNews.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GrapNews/2017-04-24.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GrapNews/2017-05-02.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GrapNews/__init__.py" afterPath="$PROJECT_DIR$/GrapNews/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GrapNews/StockTencentConcept.py" afterPath="$PROJECT_DIR$/GrapNews/StockTencentConcept.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GrapNews/ghostdriver.log" afterPath="$PROJECT_DIR$/GrapNews/ghostdriver.log" />
     </list>
     <ignored path="GrapNews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,21 +43,21 @@
       <file leaf-file-name="StockTencentConcept.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GrapNews/StockTencentConcept.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="143" column="37" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+            <state relative-caret-position="309">
+              <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
-                <marker date="1498820489265" expanded="true" signature="493:683" ph="CREATE TABLE... IF" />
-                <marker date="1498820489265" expanded="true" signature="712:866" ph="CREATE TABLE... IF" />
-                <marker date="1498820489265" expanded="true" signature="1763:1825" ph="select id fr... StockList" />
-                <marker date="1498820489265" expanded="true" signature="1848:1915" ph="select id fr... Category" />
-                <marker date="1498820489265" expanded="true" signature="2464:2551" ph="select * fro... StockToCategory" />
-                <marker date="1498820489265" expanded="true" signature="2464:2567" ph="select * fro... StockToCategory" />
-                <marker date="1498820489265" expanded="true" signature="2623:2702" ph="insert into StockToCategory... " />
-                <marker date="1498820489265" expanded="true" signature="4151:4222" ph="select * fro... Category" />
-                <marker date="1498820489265" expanded="true" signature="4313:4403" ph="insert into Category... " />
-                <marker date="1498820489265" expanded="true" signature="4313:4427" ph="insert into Category... " />
-                <marker date="1498820489265" expanded="true" signature="4313:4429" ph="insert into Category... " />
+                <marker date="1498820688267" expanded="true" signature="493:683" ph="CREATE TABLE... IF" />
+                <marker date="1498820688267" expanded="true" signature="712:866" ph="CREATE TABLE... IF" />
+                <marker date="1498820688267" expanded="true" signature="1763:1825" ph="select id fr... StockList" />
+                <marker date="1498820688267" expanded="true" signature="1848:1915" ph="select id fr... Category" />
+                <marker date="1498820688267" expanded="true" signature="2464:2551" ph="select * fro... StockToCategory" />
+                <marker date="1498820688267" expanded="true" signature="2464:2567" ph="select * fro... StockToCategory" />
+                <marker date="1498820688267" expanded="true" signature="2623:2702" ph="insert into StockToCategory... " />
+                <marker date="1498820688267" expanded="true" signature="4151:4222" ph="select * fro... Category" />
+                <marker date="1498820688267" expanded="true" signature="4313:4403" ph="insert into Category... " />
+                <marker date="1498820688267" expanded="true" signature="4313:4427" ph="insert into Category... " />
+                <marker date="1498820688267" expanded="true" signature="4313:4429" ph="insert into Category... " />
               </folding>
             </state>
           </provider>
@@ -854,21 +845,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GrapNews/StockTencentConcept.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="143" column="37" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+        <state relative-caret-position="309">
+          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
           <folding>
             <element signature="e#1#15#0" expanded="true" />
-            <marker date="1498820489265" expanded="true" signature="493:683" ph="CREATE TABLE... IF" />
-            <marker date="1498820489265" expanded="true" signature="712:866" ph="CREATE TABLE... IF" />
-            <marker date="1498820489265" expanded="true" signature="1763:1825" ph="select id fr... StockList" />
-            <marker date="1498820489265" expanded="true" signature="1848:1915" ph="select id fr... Category" />
-            <marker date="1498820489265" expanded="true" signature="2464:2551" ph="select * fro... StockToCategory" />
-            <marker date="1498820489265" expanded="true" signature="2464:2567" ph="select * fro... StockToCategory" />
-            <marker date="1498820489265" expanded="true" signature="2623:2702" ph="insert into StockToCategory... " />
-            <marker date="1498820489265" expanded="true" signature="4151:4222" ph="select * fro... Category" />
-            <marker date="1498820489265" expanded="true" signature="4313:4403" ph="insert into Category... " />
-            <marker date="1498820489265" expanded="true" signature="4313:4427" ph="insert into Category... " />
-            <marker date="1498820489265" expanded="true" signature="4313:4429" ph="insert into Category... " />
+            <marker date="1498820688267" expanded="true" signature="493:683" ph="CREATE TABLE... IF" />
+            <marker date="1498820688267" expanded="true" signature="712:866" ph="CREATE TABLE... IF" />
+            <marker date="1498820688267" expanded="true" signature="1763:1825" ph="select id fr... StockList" />
+            <marker date="1498820688267" expanded="true" signature="1848:1915" ph="select id fr... Category" />
+            <marker date="1498820688267" expanded="true" signature="2464:2551" ph="select * fro... StockToCategory" />
+            <marker date="1498820688267" expanded="true" signature="2464:2567" ph="select * fro... StockToCategory" />
+            <marker date="1498820688267" expanded="true" signature="2623:2702" ph="insert into StockToCategory... " />
+            <marker date="1498820688267" expanded="true" signature="4151:4222" ph="select * fro... Category" />
+            <marker date="1498820688267" expanded="true" signature="4313:4403" ph="insert into Category... " />
+            <marker date="1498820688267" expanded="true" signature="4313:4427" ph="insert into Category... " />
+            <marker date="1498820688267" expanded="true" signature="4313:4429" ph="insert into Category... " />
           </folding>
         </state>
       </provider>

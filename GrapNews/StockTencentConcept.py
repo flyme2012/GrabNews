@@ -182,7 +182,6 @@ def requestIndexCategory():
         requestDetailData(child.conceptUrl, child.conceptName, 1)
         test = test+1
 
-
 def requestBaseCategory():
     createStockCategoryTable(tablesSql)
     createStockCategoryTable(tablesCategorySql)
