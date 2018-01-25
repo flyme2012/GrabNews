@@ -48,7 +48,7 @@ def match(text,matchTxt):
 def requestAllHtmlContent(page_url):
     driver = webdriver.PhantomJS()
     driver.get(page_url)
-    time.sleep(30)
+    time.sleep(20)
     return driver.page_source
 
 def save_relation_to_database(stockCode,categoryName):
@@ -166,7 +166,7 @@ def requestNotionCategory():
     concepts = requestConceptData('http://stockapp.finance.qq.com/mstats/?mod=all#mod=list&id=bd_cpt&module=BD&type=02&sort=8&page=1&max=80',1)
     save_category_to_database(concepts,3)
     test = 1
-    for child in concepts[140:]:
+    for child in concepts:
         print child.conceptUrl, child.conceptName
         requestDetailData(child.conceptUrl, child.conceptName, 1)
         test = test+ 1
@@ -174,7 +174,7 @@ def requestNotionCategory():
 def requestIndexCategory():
     createStockCategoryTable(tablesSql)
     createStockCategoryTable(tablesCategorySql)
-    concepts = requestConceptData('http://stockapp.finance.qq.com/mstats/?mod=all#mod=list&id=bd_cpt&module=BD&type=02&sort=8&page=1&max=80',1)
+    concepts = requestConceptData('http://stockapp.finance.qq.com/mstats/#mod=list&id=idx&module=IDX&type=RANK&sort=32&page=1&max=80',1)
     save_category_to_database(concepts,4)
     test = 1
     for child in concepts:
@@ -193,4 +193,4 @@ def requestBaseCategory():
         requestDetailData(child.conceptUrl, child.conceptName, 1)
         test = test+ 1
 
-requestNotionCategory()
+requestIndexCategory()

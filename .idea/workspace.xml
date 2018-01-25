@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12651300-afc2-4b5c-8177-32c5cf8dacf6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/GrapBoke.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GrapNews/count.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GrapNews/StockTencentConcept.py" afterPath="$PROJECT_DIR$/GrapNews/StockTencentConcept.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GrapNews/ghostdriver.log" afterPath="$PROJECT_DIR$/GrapNews/ghostdriver.log" />
     </list>
@@ -27,11 +30,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GrapBoke.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GrapNews/GrapBoke.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#15#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GrapNews/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="294">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1498704638450" expanded="true" signature="44:291" ph="CREATE TABLE... IF" />
@@ -40,54 +55,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockTencentConcept.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GrapNews/StockTencentConcept.py">
+      <file leaf-file-name="count.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GrapNews/count.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#15#0" expanded="true" />
-                <marker date="1498820688267" expanded="true" signature="493:683" ph="CREATE TABLE... IF" />
-                <marker date="1498820688267" expanded="true" signature="712:866" ph="CREATE TABLE... IF" />
-                <marker date="1498820688267" expanded="true" signature="1763:1825" ph="select id fr... StockList" />
-                <marker date="1498820688267" expanded="true" signature="1848:1915" ph="select id fr... Category" />
-                <marker date="1498820688267" expanded="true" signature="2464:2551" ph="select * fro... StockToCategory" />
-                <marker date="1498820688267" expanded="true" signature="2464:2567" ph="select * fro... StockToCategory" />
-                <marker date="1498820688267" expanded="true" signature="2623:2702" ph="insert into StockToCategory... " />
-                <marker date="1498820688267" expanded="true" signature="4151:4222" ph="select * fro... Category" />
-                <marker date="1498820688267" expanded="true" signature="4313:4403" ph="insert into Category... " />
-                <marker date="1498820688267" expanded="true" signature="4313:4427" ph="insert into Category... " />
-                <marker date="1498820688267" expanded="true" signature="4313:4429" ph="insert into Category... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockCategory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GrapNews/StockCategory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="174" selection-end-column="43" />
-              <folding>
-                <element signature="e#1#15#0" expanded="true" />
-                <marker date="1498734288561" expanded="true" signature="191:381" ph="CREATE TABLE... IF" />
-                <marker date="1498734288561" expanded="true" signature="410:564" ph="CREATE TABLE... IF" />
-                <marker date="1498734288561" expanded="true" signature="2480:2550" ph="select * fro... Category" />
-                <marker date="1498734288561" expanded="true" signature="2641:2733" ph="insert into StockCategory... " />
-                <marker date="1498734288561" expanded="true" signature="3467:3512" ph="select id fr... StockList" />
-                <marker date="1498734288561" expanded="true" signature="3467:3529" ph="select id fr... StockList" />
-                <marker date="1498734288561" expanded="true" signature="3552:3619" ph="select id fr... Category" />
-                <marker date="1498734288561" expanded="true" signature="4158:4204" ph="insert into StockToCategory... " />
-                <marker date="1498734288561" expanded="true" signature="4158:4227" ph="insert into StockToCategory... " />
-                <marker date="1498734288561" expanded="true" signature="4158:4237" ph="insert into StockToCategory... " />
-                <marker date="1498734288561" expanded="true" signature="4158:4253" ph="insert into StockToCategory... " />
-                <marker date="1498734288561" expanded="true" signature="4158:4254" ph="insert into StockToCategory... " />
-                <marker date="1498734288561" expanded="true" signature="5090:5170" ph="select stock... StockList" />
-                <marker date="1498734288561" expanded="true" signature="5261:5449" ph="insert into StockList... " />
-                <marker date="1498734288561" expanded="true" signature="5583:5655" ph="select id fr... StockList" />
-                <marker date="1498734288561" expanded="true" signature="5682:5758" ph="select id fr... Category" />
-                <marker date="1498734288561" expanded="true" signature="6368:6447" ph="insert into StockToCategory... " />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +89,8 @@
         <option value="$PROJECT_DIR$/GrapNews/StockCategory.py" />
         <option value="$PROJECT_DIR$/GrapNews/StockConcept.py" />
         <option value="$PROJECT_DIR$/GrapNews/StockTencentConcept.py" />
+        <option value="$PROJECT_DIR$/GrapNews/GrapBoke.py" />
+        <option value="$PROJECT_DIR$/GrapNews/count.py" />
       </list>
     </option>
   </component>
@@ -156,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -165,33 +141,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GrabNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GrabNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GrabNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GrabNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GrapNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,26 +446,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18643133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20022063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3444329" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31425598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31425598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -722,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="2354" column="23" selection-start-line="2354" selection-start-column="23" selection-end-line="2354" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,17 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
           <caret line="93" column="7" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GrapNews/grapNews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,12 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="41" column="61" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1498728074620" expanded="true" signature="153:372" ph="CREATE TABLE... IF" />
-            <marker date="1498728074620" expanded="true" signature="2421:2500" ph="select stock... StockList" />
-            <marker date="1498728074620" expanded="true" signature="2591:2804" ph="insert into StockList... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,26 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-            <marker date="1498791597495" expanded="true" signature="890:952" ph="select id fr... StockList" />
-            <marker date="1498791597495" expanded="true" signature="975:1042" ph="select id fr... Category" />
-            <marker date="1498791597495" expanded="true" signature="1581:1660" ph="insert into StockToCategory... " />
-            <marker date="1498791597495" expanded="true" signature="2580:2651" ph="select * fro... Category" />
-            <marker date="1498791597495" expanded="true" signature="2742:2835" ph="insert into Category... " />
-            <marker date="1498791597495" expanded="true" signature="2753:2835" ph="insert into Category... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GrapNews/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1498704638450" expanded="true" signature="44:291" ph="CREATE TABLE... IF" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,55 +722,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="1238" column="13" selection-start-line="1238" selection-start-column="13" selection-end-line="1238" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GrapNews/StockCategory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="2682">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="174" selection-end-column="43" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-            <marker date="1498734288561" expanded="true" signature="191:381" ph="CREATE TABLE... IF" />
-            <marker date="1498734288561" expanded="true" signature="410:564" ph="CREATE TABLE... IF" />
-            <marker date="1498734288561" expanded="true" signature="2480:2550" ph="select * fro... Category" />
-            <marker date="1498734288561" expanded="true" signature="2641:2733" ph="insert into StockCategory... " />
-            <marker date="1498734288561" expanded="true" signature="3467:3512" ph="select id fr... StockList" />
-            <marker date="1498734288561" expanded="true" signature="3467:3529" ph="select id fr... StockList" />
-            <marker date="1498734288561" expanded="true" signature="3552:3619" ph="select id fr... Category" />
-            <marker date="1498734288561" expanded="true" signature="4158:4204" ph="insert into StockToCategory... " />
-            <marker date="1498734288561" expanded="true" signature="4158:4227" ph="insert into StockToCategory... " />
-            <marker date="1498734288561" expanded="true" signature="4158:4237" ph="insert into StockToCategory... " />
-            <marker date="1498734288561" expanded="true" signature="4158:4253" ph="insert into StockToCategory... " />
-            <marker date="1498734288561" expanded="true" signature="4158:4254" ph="insert into StockToCategory... " />
-            <marker date="1498734288561" expanded="true" signature="5090:5170" ph="select stock... StockList" />
-            <marker date="1498734288561" expanded="true" signature="5261:5449" ph="insert into StockList... " />
-            <marker date="1498734288561" expanded="true" signature="5583:5655" ph="select id fr... StockList" />
-            <marker date="1498734288561" expanded="true" signature="5682:5758" ph="select id fr... Category" />
-            <marker date="1498734288561" expanded="true" signature="6368:6447" ph="insert into StockToCategory... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GrapNews/StockTencentConcept.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/grapNews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票85：逗庄家玩的一些杂史3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票74：如何躲避政策性风险.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票63：替各位理理基本概念.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票60：图解分析示范五.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票64：去机场路上给各位补课.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票71：线段划分标准的再分辨.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票77：一些概念的再分辨.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票81：图例、更正及分型、走势类型的哲学本质.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票47：一夜情行情分析.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/教你炒股票98：中医、兵法、诗歌、操作2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/GrapBoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#1#15#0" expanded="true" />
-            <marker date="1498820688267" expanded="true" signature="493:683" ph="CREATE TABLE... IF" />
-            <marker date="1498820688267" expanded="true" signature="712:866" ph="CREATE TABLE... IF" />
-            <marker date="1498820688267" expanded="true" signature="1763:1825" ph="select id fr... StockList" />
-            <marker date="1498820688267" expanded="true" signature="1848:1915" ph="select id fr... Category" />
-            <marker date="1498820688267" expanded="true" signature="2464:2551" ph="select * fro... StockToCategory" />
-            <marker date="1498820688267" expanded="true" signature="2464:2567" ph="select * fro... StockToCategory" />
-            <marker date="1498820688267" expanded="true" signature="2623:2702" ph="insert into StockToCategory... " />
-            <marker date="1498820688267" expanded="true" signature="4151:4222" ph="select * fro... Category" />
-            <marker date="1498820688267" expanded="true" signature="4313:4403" ph="insert into Category... " />
-            <marker date="1498820688267" expanded="true" signature="4313:4427" ph="insert into Category... " />
-            <marker date="1498820688267" expanded="true" signature="4313:4429" ph="insert into Category... " />
+            <element signature="e#15#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1498704638450" expanded="true" signature="44:291" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrapNews/count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
